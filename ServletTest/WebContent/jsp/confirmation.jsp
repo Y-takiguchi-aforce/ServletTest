@@ -25,14 +25,7 @@
 		<%} %>
 		
 		<p>資料請求希望：</p>
-		<%String info = request.getParameter("info");
-		if(info.equals("Yes")){ %>
-			<%request.getRequestDispatcher("checkedA.jsp").forward(request,response);
-			%>
-		<%}else{ %>
-			<%=info %>
-			
-		<%} %>
+		<%=request.getParameter("info") %>
 
 			
 
