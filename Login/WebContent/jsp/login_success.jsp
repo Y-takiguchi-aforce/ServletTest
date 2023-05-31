@@ -8,9 +8,7 @@
 </head>
 <body>
 
-<%
-	
-%>
+
 <p>ようこそ、${param.id}さん！</p>
 
 <a href="logout.jsp">ログアウトの方はこちら</a>
